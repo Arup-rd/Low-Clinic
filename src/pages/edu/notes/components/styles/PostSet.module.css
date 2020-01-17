@@ -1,0 +1,14 @@
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+.contentItem i {
+  color: #f58b00d0;
+  margin-right: 15px;
+}
+.contentItem .title {
+  font-size: 16px;
+  font-weight: 500;
+}

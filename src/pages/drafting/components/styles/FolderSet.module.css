@@ -1,0 +1,48 @@
+.folderCard {
+  background-color: #f58b00d0;
+  padding: 10px 15px;
+  border-radius: 3px;
+  display: flex;
+  width: 250px;
+  position: relative;
+  height: 100px;
+  align-items: center;
+}
+
+.folderCard .category {
+  font-size: 13px;
+  display: block;
+}
+
+.folderCard a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.folderCard span {
+  color: white;
+  font-weight: 500;
+  font-size: 0.8em;
+  margin-left: 5px;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4; /* Number of lines displayed before it truncate */
+  overflow: hidden;
+}
+
+.folderCard:hover {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}

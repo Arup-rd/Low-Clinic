@@ -1,0 +1,12 @@
+.textinput {
+  display: block;
+}
+
+label {
+  font-weight: 400;
+  margin: 5px 0px 0px 2px;
+}
+
+.textarea textarea {
+  min-height: 100px;
+}

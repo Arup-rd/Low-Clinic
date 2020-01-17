@@ -1,0 +1,16 @@
+.itemCard {
+  position: relative;
+}
+.itemCardLeft {
+  width: 50%;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.itemCardRight {
+  width: 50%;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+}

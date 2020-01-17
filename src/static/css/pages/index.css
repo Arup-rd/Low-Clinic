@@ -1,0 +1,39 @@
+.dark-back-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 100px;
+}
+
+.pattern {
+  height: 250px;
+  margin-top: 320px;
+  width: 100%;
+  background: url("../../img/website bg.png");
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-size: 50%;
+}
+
+.patternSubWise {
+  height: 380px;
+  margin-top: 200px;
+  width: 100%;
+  background: url("../../img/website bg.png");
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-size: 50%;
+  position: fixed;
+}
+
+/* @media (max-width: 768px) {
+  .pattern {
+    height: 1000px;
+  }
+} */
+
+.career {
+  background: url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+}
